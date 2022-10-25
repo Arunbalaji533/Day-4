@@ -10,11 +10,17 @@ var Country = new XMLHttpRequest();
             // for(i =0; obj of data){
             //     console.log(obj.name)
             // }
-            for (obj of data) {
-                console.log(obj.name.common)
-                console.log(obj.population)
-                console.log(obj.subregion)
-                console.log(obj.region)
-                console.log(obj.flag)
+            for (i = 0; i<data.length; i++) {
+                console.log(data[i].population)
+            }
+            for (i = 0; i<data.length; i++) {
+                console.log(data[i].subregion)
+            }
+            for (i = 0; i<data.length; i++) {
+                console.log(data[i].region)
+            }
+            for (i = 0; i<data.length; i++) {
+                console.log(data[i].flags.png)
+            
             }
             }
